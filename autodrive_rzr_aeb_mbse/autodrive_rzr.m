@@ -266,6 +266,8 @@ block.RegBlockMethod('Terminate', @Terminate); % Required
 function InitializeConditions(block)
 global autodrive
 autodrive = server_rzr(block.DialogPrm(1).Data);
+autodrive.rzr_1.collision_count = uint16(0);
+block.OutputPort(2).Data = uint16(0);
 system('start /B "AutoDRIVE" "Simulator\AutoDRIVE Simulator.exe"');
 
 %end InitializeConditions
@@ -359,6 +361,8 @@ block.OutputPort(15).Data = autodrive.rzr_1.right_camera_image;
 
 function Terminate(block)
 global autodrive
+autodrive.rzr_1.collision_count = uint16(0);
+block.OutputPort(2).Data = uint16(0);
 autodrive.stop;
 autodrive.delete;
 system('taskkill /F /IM "AutoDRIVE Simulator.exe"');

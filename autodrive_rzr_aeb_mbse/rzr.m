@@ -5,7 +5,7 @@ classdef rzr < handle
     properties
         % RZR data
         id = uint16(1);
-        collision_count = uint16(1);
+        collision_count = uint16(0);
         throttle = double(0.0);
         steering = double(0.0);
         brake = double(0.0);
