@@ -265,10 +265,44 @@ block.RegBlockMethod('Terminate', @Terminate); % Required
 
 function InitializeConditions(block)
 global autodrive
+% Start the server
 autodrive = server_rzr(block.DialogPrm(1).Data);
+% Reset API variables
+autodrive.rzr_1.id = uint16(1);
 autodrive.rzr_1.collision_count = uint16(0);
+autodrive.rzr_1.throttle = double(0.0);
+autodrive.rzr_1.steering = double(0.0);
+autodrive.rzr_1.brake = double(0.0);
+autodrive.rzr_1.handbrake = double(0.0);
+autodrive.rzr_1.encoder_ticks = int32([0; 0]);
+autodrive.rzr_1.encoder_angles = double([0; 0]);
+autodrive.rzr_1.position = double([0; 0; 0]);
+autodrive.rzr_1.orientation_quaternion = double([0; 0; 0; 0]);
+autodrive.rzr_1.orientation_euler_angles = double([0; 0; 0]);
+autodrive.rzr_1.angular_velocity = double([0; 0; 0]);
+autodrive.rzr_1.linear_acceleration = double([0; 0; 0]);
+% autodrive.rzr_1.lidar_pointcloud = single(zeros(57600,3));
+autodrive.rzr_1.left_camera_image = uint8(zeros(720,1280,3));
+autodrive.rzr_1.right_camera_image = uint8(zeros(720,1280,3));
+% Reset output port data
+block.OutputPort(1).Data = uint16(1);
 block.OutputPort(2).Data = uint16(0);
-system('start /B "AutoDRIVE" "Simulator\AutoDRIVE Simulator.exe"');
+block.OutputPort(3).Data = double(0.0);
+block.OutputPort(4).Data = double(0.0);
+block.OutputPort(5).Data = double(0.0);
+block.OutputPort(6).Data = double(0.0);
+block.OutputPort(7).Data = int32([0; 0]);
+block.OutputPort(8).Data = double([0; 0]);
+block.OutputPort(9).Data = double([0; 0; 0]);
+block.OutputPort(10).Data = double([0; 0; 0; 0]);
+block.OutputPort(11).Data = double([0; 0; 0]);
+block.OutputPort(12).Data = double([0; 0; 0]);
+block.OutputPort(13).Data = double([0; 0; 0]);
+% block.OutputPort(14).Data = single(zeros(57600,3));
+block.OutputPort(14).Data = uint8(zeros(720,1280,3));
+block.OutputPort(15).Data = uint8(zeros(720,1280,3));
+% Launch a simulator instance
+system('start /B "AutoDRIVE" "sim\AutoDRIVE Simulator.exe"');
 
 %end InitializeConditions
 
@@ -324,7 +358,7 @@ block.OutputPort(7).Data = autodrive.rzr_1.encoder_ticks;
 block.OutputPort(8).Data = autodrive.rzr_1.encoder_angles;
 block.OutputPort(9).Data = autodrive.rzr_1.position;
 block.OutputPort(10).Data = autodrive.rzr_1.orientation_quaternion;
-block.OutputPort(12).Data = autodrive.rzr_1.orientation_euler_angles;
+block.OutputPort(11).Data = autodrive.rzr_1.orientation_euler_angles;
 block.OutputPort(12).Data = autodrive.rzr_1.angular_velocity;
 block.OutputPort(13).Data = autodrive.rzr_1.linear_acceleration;
 % block.OutputPort(14).CurrentDimensions = [size(autodrive.rzr_1.lidar_pointcloud,1),3];
@@ -361,10 +395,45 @@ block.OutputPort(15).Data = autodrive.rzr_1.right_camera_image;
 
 function Terminate(block)
 global autodrive
+autodrive = server_rzr(block.DialogPrm(1).Data);
+% Reset API variables
+autodrive.rzr_1.id = uint16(1);
 autodrive.rzr_1.collision_count = uint16(0);
+autodrive.rzr_1.throttle = double(0.0);
+autodrive.rzr_1.steering = double(0.0);
+autodrive.rzr_1.brake = double(0.0);
+autodrive.rzr_1.handbrake = double(0.0);
+autodrive.rzr_1.encoder_ticks = int32([0; 0]);
+autodrive.rzr_1.encoder_angles = double([0; 0]);
+autodrive.rzr_1.position = double([0; 0; 0]);
+autodrive.rzr_1.orientation_quaternion = double([0; 0; 0; 0]);
+autodrive.rzr_1.orientation_euler_angles = double([0; 0; 0]);
+autodrive.rzr_1.angular_velocity = double([0; 0; 0]);
+autodrive.rzr_1.linear_acceleration = double([0; 0; 0]);
+% autodrive.rzr_1.lidar_pointcloud = single(zeros(57600,3));
+autodrive.rzr_1.left_camera_image = uint8(zeros(720,1280,3));
+autodrive.rzr_1.right_camera_image = uint8(zeros(720,1280,3));
+% Reset output port data
+block.OutputPort(1).Data = uint16(1);
 block.OutputPort(2).Data = uint16(0);
+block.OutputPort(3).Data = double(0.0);
+block.OutputPort(4).Data = double(0.0);
+block.OutputPort(5).Data = double(0.0);
+block.OutputPort(6).Data = double(0.0);
+block.OutputPort(7).Data = int32([0; 0]);
+block.OutputPort(8).Data = double([0; 0]);
+block.OutputPort(9).Data = double([0; 0; 0]);
+block.OutputPort(10).Data = double([0; 0; 0; 0]);
+block.OutputPort(11).Data = double([0; 0; 0]);
+block.OutputPort(12).Data = double([0; 0; 0]);
+block.OutputPort(13).Data = double([0; 0; 0]);
+% block.OutputPort(14).Data = single(zeros(57600,3));
+block.OutputPort(14).Data = uint8(zeros(720,1280,3));
+block.OutputPort(15).Data = uint8(zeros(720,1280,3));
+% Stop the server
 autodrive.stop;
 autodrive.delete;
+% Kill the simulator instance
 system('taskkill /F /IM "AutoDRIVE Simulator.exe"');
 
 %end Terminate
