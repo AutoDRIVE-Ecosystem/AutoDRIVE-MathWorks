@@ -25,7 +25,7 @@ This directory hosts the MATLAB API for AutoDRIVE, which can be used to develop 
 
 Execute AutoDRIVE MATLAB API:
 ```MATLAB
-autodrive = example_hunter(4567)
+autodrive = example_{vehicle}(4567)
 ```
 
 Terminate AutoDRIVE MATLAB API:
