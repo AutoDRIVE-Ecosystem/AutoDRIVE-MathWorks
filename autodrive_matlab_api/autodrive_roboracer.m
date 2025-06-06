@@ -72,7 +72,7 @@ classdef autodrive_roboracer < handle
                                            transpose(reshape(obj.front_camera_image(2,:,:), [192,108])), ...
                                            transpose(reshape(obj.front_camera_image(1,:,:), [192,108])));
             % Race data
-            obj.lap_count = str2double(data.V1LapCount);
+            obj.lap_count = uint16(str2double(data.V1LapCount));
             obj.lap_time = str2double(data.V1LapTime);
             obj.last_lap_time = str2double(data.V1LastLapTime);
             obj.best_lap_time = str2double(data.V1BestLapTime);
