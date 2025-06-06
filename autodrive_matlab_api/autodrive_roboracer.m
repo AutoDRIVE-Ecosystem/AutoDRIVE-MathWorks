@@ -101,7 +101,7 @@ classdef autodrive_roboracer < handle
                 imshow(imresize(obj.front_camera_image, 0.5),'Parent',frontcamera_ax);
                 drawnow;
                 % Visualize LIDAR laser scan
-                angles = deg2rad(0:0.25:270);
+                angles = deg2rad(-45:0.25:225);
                 scatter(laserscan_ax, angles,obj.lidar_range_array,1,'filled','red');
                 title('LIDAR Laser Scan');
                 drawnow;
