@@ -24,7 +24,9 @@ This directory hosts the Simulink API for AutoDRIVE, which can be used to develo
 ## USAGE
 
 Run the vehicle-specific `example` file:
-- [Hunter SE](example_hunter.slx)
+- [RoboRacer (formerly F1TENTH)](example_roboracer.slx)
+- [Clearpath Husky](example_husky.slx)
+- [AgileX Hunter SE](example_hunter.slx)
 - [Polaris RZR](example_rzr.slx)
 
 > [!NOTE]
