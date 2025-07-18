@@ -1,6 +1,6 @@
-# Troubleshooting
+# Troubleshooting Guide
 
-This directory hosts some troubleshooting tips for the AutoDRIVE Simulink API, which can help debug any build/runtime errors, and assist in installing appropriate dependencies and setting up the right configuration.
+This directory contains troubleshooting tips for the AutoDRIVE Simulink API, which can help debug build/runtime errors, and assist in installing the necessary dependencies and setting up the correct configuration.
 
 ## Potential Errors:
 
