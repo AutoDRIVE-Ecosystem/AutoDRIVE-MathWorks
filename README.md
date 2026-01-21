@@ -78,6 +78,7 @@ Run the vehicle-specific `example` file:
 - [`example_roboracer.slx`](autodrive_simulink_api/example_roboracer.slx) for [RoboRacer (formerly F1Tenth)](https://roboracer.ai)
 - [`example_hunter.slx`](autodrive_simulink_api/example_hunter.slx) for [AgileX Hunter SE](https://global.agilex.ai/products/hunter-se)
 - [`example_husky.slx`](autodrive_simulink_api/example_husky.slx) for [Clearpath Husky A200](https://docs.clearpathrobotics.com/docs_robots/outdoor_robots/husky/a200/user_manual_husky)
+- [`example_rzr.slx`](autodrive_simulink_api/example_rzr.slx) for [Polaris RZR Pro R 4 Ultimate](https://www.polaris.com/en-us/off-road/rzr/models/rzr-pro-r/rzr-pro-r-4-ultimate-super-graphite-specs)
 
 > [!NOTE]
 > The AutoDRIVE Simulink API, which is implemented as a Level-2 MATLAB S-Function, will automatically take care of creating a WebSocket server instance upon running the Simulink model and will ensure a graceful exit upon termination by stopping the server instance, deleting it, and clearing it from the memory.
