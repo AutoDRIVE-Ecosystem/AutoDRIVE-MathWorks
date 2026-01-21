@@ -28,16 +28,16 @@ Setup the GPU MEX compiler by following the steps below:
 
 2. Install NVIDIA CUDA [Tested with CUDA 11.8 (V11.8.89)]
 
-    > [!NOTE]
-    > It is important to install CUDA after installing Visual Studio so that CUDA can configure Visual Studio settings during installation.
-
     ![](CUDA%20Installation.png)
 
-3. Setup the MEX Compiler by running `mex -setup C` and `mex -setup C++` in MATLAB Command Window and selecting `Microsoft Visual C++ 2019 (C)` as the compiler.
+> [!NOTE]
+> It is important to install CUDA after installing Visual Studio so that CUDA can configure Visual Studio settings during installation.
+
+4. Setup the MEX Compiler by running `mex -setup C` and `mex -setup C++` in MATLAB Command Window and selecting `Microsoft Visual C++ 2019 (C)` as the compiler.
 
     ![](MEX%20Compiler%20Setup.png)
 
-4. Set the Simulink build process toolchain to `NVIDIA CUDA (w/Microsoft Visual C++ 2019) | nmake` (selecting `Automatically locate an installed toolchain` should choose this already)
+5. Set the Simulink build process toolchain to `NVIDIA CUDA (w/Microsoft Visual C++ 2019) | nmake` (selecting `Automatically locate an installed toolchain` should choose this already)
 
     ![](Build%20Toolchain%20Setup.png)
 
