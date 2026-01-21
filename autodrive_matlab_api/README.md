@@ -6,6 +6,9 @@ This directory hosts the MATLAB API for AutoDRIVE, which can be used to develop 
 
 ## SETUP
 
+> [!NOTE]
+> Please skip this setup if you have already installed the [`autodrive_simulink_api`](../autodrive_simulink_api).
+
 1. Install the Java library:
    - Place the [`WebSocket-1.0.0.jar`](lib/target/WebSocket-1.0.0.jar) file on the static Java class path in MATLAB by editing the `javaclasspath.txt` file (create the file if it does not exist). Run the following in MATLAB Command Window:
      ```MATLAB
