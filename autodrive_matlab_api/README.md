@@ -29,6 +29,7 @@ This directory hosts the MATLAB API for AutoDRIVE, which can be used to develop 
     Replace `{vehicle}` by one of the available objects:
     - `roboracer` for [RoboRacer (formerly F1Tenth)](https://roboracer.ai)
     - `hunter` for [AgileX Hunter SE](https://global.agilex.ai/products/hunter-se)
+    - `husky` for [Clearpath Husky A200](https://docs.clearpathrobotics.com/docs_robots/outdoor_robots/husky/a200/user_manual_husky)
 
 2. Terminate AutoDRIVE MATLAB API:
     ```MATLAB
