@@ -9,7 +9,7 @@ A comprehensive toolbox containing modular APIs and turnkey demos for autonomous
 # MATLAB API
 
 <p align="justify">
-This section describes the MATLAB API for AutoDRIVE, which can be used to develop modular as well as end-to-end autonomous driving algorithms.
+This section describes the MATLAB API for AutoDRIVE, which can be used to develop modular as well as end-to-end autonomous driving algorithms using textual programming. This API is primarily designed for "software engineers" who prefer a script/function-based workflow.
 </p>
 
 ## SETUP
@@ -47,7 +47,7 @@ This section describes the MATLAB API for AutoDRIVE, which can be used to develo
 # Simulink API
 
 <p align="justify">
-This section describes the Simulink API for AutoDRIVE, which can be used to develop modular as well as end-to-end autonomous driving algorithms and integrate them within a model-based systems engineering (MBSE) toolchain.
+This section describes the Simulink API for AutoDRIVE, which can be used to develop modular as well as end-to-end autonomous driving algorithms using graphical programming. This API is primarily designed for "system engineers" who prefer an interactive MBD/MBSE toolchain.
 </p>
 
 ## SETUP
