@@ -74,6 +74,7 @@ This section describes the Simulink API for AutoDRIVE, which can be used to deve
 
 Run the vehicle-specific `example` file:
 - [`example_roboracer.slx`](autodrive_simulink_api/example_roboracer.slx) for [RoboRacer (formerly F1Tenth)](https://roboracer.ai)
+- [`example_hunter.slx`](example_hunter.slx) for [AgileX Hunter SE](https://global.agilex.ai/products/hunter-se)
 
 > [!NOTE]
 > The AutoDRIVE Simulink API, which is implemented as a Level-2 MATLAB S-Function, will automatically take care of creating a WebSocket server instance upon running the Simulink model and will ensure a graceful exit upon termination by stopping the server instance, deleting it, and clearing it from the memory.
