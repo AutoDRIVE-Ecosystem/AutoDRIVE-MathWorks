@@ -2,6 +2,10 @@
 <img src="media/AutoDRIVE-Logo.png" alt="AutoDRIVE" height="80"/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="media/MathWorks-Logo.png" alt="MathWorks" height="80"/>
 </p>
 
+A comprehensive toolbox containing modular APIs and turnkey demos for autonomous driving using AutoDRIVE Ecosystem and MathWorks tool suite.
+
+[![GitHub](https://img.shields.io/badge/GitHub-blue?logo=github&logoColor=white&labelColor=black)](https://github.com/AutoDRIVE-Ecosystem/AutoDRIVE-MathWorks) [![MATLAB File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://www.mathworks.com/matlabcentral/fileexchange/183093-autodrive-toolbox)
+
 # MATLAB API
 
 <p align="justify">
