@@ -4,7 +4,11 @@
 
 A comprehensive toolbox containing modular APIs and turnkey demos for autonomous driving using AutoDRIVE Ecosystem and MathWorks tool suite.
 
-[![GitHub](https://img.shields.io/badge/GitHub-blue?logo=github&logoColor=white&labelColor=black)](https://github.com/AutoDRIVE-Ecosystem/AutoDRIVE-MathWorks) [![MATLAB File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://www.mathworks.com/matlabcentral/fileexchange/183093-autodrive-toolbox)
+[![MATLAB File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://www.mathworks.com/matlabcentral/fileexchange/183093-autodrive-toolbox)
+[![GitHub](https://img.shields.io/badge/GitHub-blue?logo=github&logoColor=white&labelColor=gray)](https://github.com/AutoDRIVE-Ecosystem/AutoDRIVE-MathWorks)
+![Github Stars](https://img.shields.io/github/stars/AutoDRIVE-Ecosystem/AutoDRIVE-MathWorks?style=flat&color=blue&label=Stars&logo=github&logoColor=white)
+![Github Forks](https://img.shields.io/github/forks/AutoDRIVE-Ecosystem/AutoDRIVE-MathWorks?style=flat&color=blue&label=Forks&logo=github&logoColor=white)
+![Github Downloads](https://img.shields.io/github/downloads/AutoDRIVE-Ecosystem/AutoDRIVE-MathWorks/total?style=flat&color=blue&label=Downloads&logo=github&logoColor=white)
 
 # MATLAB API
 
