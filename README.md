@@ -38,6 +38,7 @@ This section describes the MATLAB API for AutoDRIVE, which can be used to develo
     - `roboracer` for [RoboRacer (formerly F1Tenth)](https://roboracer.ai)
     - `hunter` for [AgileX Hunter SE](https://global.agilex.ai/products/hunter-se)
     - `husky` for [Clearpath Husky A200](https://docs.clearpathrobotics.com/docs_robots/outdoor_robots/husky/a200/user_manual_husky)
+    - `rzr` for [Polaris RZR Pro R 4 Ultimate](https://www.polaris.com/en-us/off-road/rzr/models/rzr-pro-r/rzr-pro-r-4-ultimate-super-graphite-specs)
 
 2. Terminate AutoDRIVE MATLAB API:
     ```MATLAB
