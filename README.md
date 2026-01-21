@@ -36,6 +36,7 @@ This section describes the MATLAB API for AutoDRIVE, which can be used to develo
     ```
     Replace `{vehicle}` by one of the available objects:
     - `roboracer` for [RoboRacer (formerly F1Tenth)](https://roboracer.ai)
+    - `hunter` for [AgileX Hunter SE](https://global.agilex.ai/products/hunter-se)
 
 2. Terminate AutoDRIVE MATLAB API:
     ```MATLAB
