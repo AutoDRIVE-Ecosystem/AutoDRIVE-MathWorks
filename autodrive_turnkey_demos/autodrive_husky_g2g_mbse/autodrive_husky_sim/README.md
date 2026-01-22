@@ -1,0 +1,1 @@
+*About this directory:* Store the simulator executable here to allow System Composer to launch and kill the simulation instance(s) automatically.
