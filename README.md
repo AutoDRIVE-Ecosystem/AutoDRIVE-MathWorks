@@ -96,7 +96,7 @@ This section describes various turnkey demos for modular as well as end-to-end a
 ![](autodrive_turnkey_demos/autodrive_rzr_aeb_mbd/autodrive_rzr_aeb_mbd.gif)
 - **Platform:** RZR Pro R 4 Ultimate | **Sensors:** Camera + IMU + Encoders
 - **Environment:** Handcrafted dirt road in thick vegetation
-- **Task:** Autonomous emergency braking (AEB)
+- **Task:** Autonomous Emergency Braking (AEB)
 - **Approach:** Model-Based Design (MBD) using Simulink
 
 **Taxonomy & Nomenclature:**
