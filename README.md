@@ -86,3 +86,20 @@ Run the vehicle-specific `example` file:
 
 > [!NOTE]
 > The AutoDRIVE Simulink API, which is implemented as a Level-2 MATLAB S-Function, will automatically take care of creating a WebSocket server instance upon running the Simulink model and will ensure a graceful exit upon termination by stopping the server instance, deleting it, and clearing it from the memory.
+
+# Turnkey Demos
+
+<p align="justify">
+This section describes various turnkey demos for modular as well as end-to-end autonomous driving algorithms developed using AutoDRIVE Ecosystem and MathWorks tool suite.
+</p>
+
+![](autodrive_turnkey_demos/autodrive_rzr_aeb_mbd/autodrive_rzr_aeb_mbd.gif)
+- **Platform:** RZR Pro R 4 Ultimate | **Sensors:** Camera + IMU + Encoders
+- **Environment:** Handcrafted dirt road in thick vegetation
+- **Task:** Autonomous emergency braking (AEB)
+- **Approach:** Model-Based Design (MBD) using Simulink
+
+**Taxonomy & Nomenclature:**
+- `*_alg`: Algorithm Development using [MATLAB](https://www.mathworks.com/products/matlab.html)
+- `*_mbd`: Model-Based Design (MBD) using [Simulink](https://www.mathworks.com/products/simulink.html)
+- `*_mbse`: Model-Based Systems Engineering (MBSE) using [System Composer](https://www.mathworks.com/products/system-composer.html)
