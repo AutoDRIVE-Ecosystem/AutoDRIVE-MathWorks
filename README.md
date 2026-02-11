@@ -38,11 +38,11 @@ This section describes the MATLAB API for AutoDRIVE, which can be used to develo
     ```MATLAB
     autodrive = example_{vehicle}(4567)
     ```
-    Replace `{vehicle}` by one of the available objects:
-    - `roboracer` for [RoboRacer (formerly F1Tenth)](https://roboracer.ai)
-    - `hunter` for [AgileX Hunter SE](https://global.agilex.ai/products/hunter-se)
-    - `husky` for [Clearpath Husky A200](https://docs.clearpathrobotics.com/docs_robots/outdoor_robots/husky/a200/user_manual_husky)
-    - `rzr` for [Polaris RZR Pro R 4 Ultimate](https://www.polaris.com/en-us/off-road/rzr/models/rzr-pro-r/rzr-pro-r-4-ultimate-super-graphite-specs)
+    Replace `{vehicle}` by one of the available objects (use the URL to download the corresponding vehicle-specific simulator):
+    - `roboracer` for [RoboRacer (formerly F1Tenth)](https://github.com/AutoDRIVE-Ecosystem/AutoDRIVE-MathWorks/releases/download/v0.1.0/autodrive_roboracer_simulator.zip)
+    - `hunter` for [AgileX Hunter SE](https://github.com/AutoDRIVE-Ecosystem/AutoDRIVE-MathWorks/releases/download/v0.3.0/autodrive_hunter_simulator.zip)
+    - `husky` for [Clearpath Husky A200](https://github.com/AutoDRIVE-Ecosystem/AutoDRIVE-MathWorks/releases/download/v0.5.0/autodrive_husky_simulator.zip)
+    - `rzr` for [Polaris RZR Pro R 4 Ultimate](https://github.com/AutoDRIVE-Ecosystem/AutoDRIVE-MathWorks/releases/download/v0.7.0/autodrive_rzr_simulator.zip)
 
 2. Terminate AutoDRIVE MATLAB API:
     ```MATLAB
@@ -78,11 +78,11 @@ This section describes the Simulink API for AutoDRIVE, which can be used to deve
 
 ## USAGE
 
-Run the vehicle-specific `example` file:
-- [`example_roboracer.slx`](autodrive_simulink_api/example_roboracer.slx) for [RoboRacer (formerly F1Tenth)](https://roboracer.ai)
-- [`example_hunter.slx`](autodrive_simulink_api/example_hunter.slx) for [AgileX Hunter SE](https://global.agilex.ai/products/hunter-se)
-- [`example_husky.slx`](autodrive_simulink_api/example_husky.slx) for [Clearpath Husky A200](https://docs.clearpathrobotics.com/docs_robots/outdoor_robots/husky/a200/user_manual_husky)
-- [`example_rzr.slx`](autodrive_simulink_api/example_rzr.slx) for [Polaris RZR Pro R 4 Ultimate](https://www.polaris.com/en-us/off-road/rzr/models/rzr-pro-r/rzr-pro-r-4-ultimate-super-graphite-specs)
+Run the vehicle-specific `example` file (the first URL) with the corresponding vehicle-specific simulator (the second URL):
+- [`example_roboracer.slx`](autodrive_simulink_api/example_roboracer.slx) for [RoboRacer (formerly F1Tenth)](https://github.com/AutoDRIVE-Ecosystem/AutoDRIVE-MathWorks/releases/download/v0.2.0/autodrive_roboracer_simulator.zip)
+- [`example_hunter.slx`](autodrive_simulink_api/example_hunter.slx) for [AgileX Hunter SE](https://github.com/AutoDRIVE-Ecosystem/AutoDRIVE-MathWorks/releases/download/v0.4.0/autodrive_hunter_simulator.zip)
+- [`example_husky.slx`](autodrive_simulink_api/example_husky.slx) for [Clearpath Husky A200](https://github.com/AutoDRIVE-Ecosystem/AutoDRIVE-MathWorks/releases/download/v0.6.0/autodrive_husky_simulator.zip)
+- [`example_rzr.slx`](autodrive_simulink_api/example_rzr.slx) for [Polaris RZR Pro R 4 Ultimate](https://github.com/AutoDRIVE-Ecosystem/AutoDRIVE-MathWorks/releases/download/v0.8.0/autodrive_rzr_simulator.zip)
 
 > [!NOTE]
 > The AutoDRIVE Simulink API, which is implemented as a Level-2 MATLAB S-Function, will automatically take care of creating a WebSocket server instance upon running the Simulink model and will ensure a graceful exit upon termination by stopping the server instance, deleting it, and clearing it from the memory.
@@ -95,9 +95,9 @@ This section describes various turnkey demos for modular as well as end-to-end a
 
 |                   |                    |
 |:------------------|:-------------------|
-| ![](autodrive_turnkey_demos/autodrive_rzr_aeb_mbd/autodrive_rzr_aeb_mbd.gif) | [**autodrive_rzr_aeb_mbd**](autodrive_turnkey_demos/autodrive_rzr_aeb_mbd)<br>- **Vehicle:** RZR Pro R 4 Ultimate<br>- **Sensors:** Camera + IMU + Encoders<br>- **Environment:** Handcrafted Dirt Road in Thick Vegetation<br>- **Task:** Autonomous Emergency Braking (AEB)<br>- **Approach:** Model-Based Design (MBD) using Simulink |
-| ![](autodrive_turnkey_demos/autodrive_rzr_aeb_mbse/autodrive_rzr_aeb_mbse.gif) | [**autodrive_rzr_aeb_mbse**](autodrive_turnkey_demos/autodrive_rzr_aeb_mbse)<br>- **Vehicle:** RZR Pro R 4 Ultimate<br>- **Sensors:** Camera + IMU + Encoders<br>- **Environment:** Handcrafted Dirt Road in Thick Vegetation<br>- **Task:** Autonomous Emergency Braking (AEB)<br>- **Approach:** Model-Based Systems Engineering (MBSE) using System Composer<br>- **Artifacts:** [Research Paper](https://doi.org/10.1016/j.ifacol.2025.12.336), [YouTube Video](https://youtu.be/FsSTWJiiEWg?si=6_EhYzU20gqP7WWY), [MathWorks Handout](https://github.com/AutoDRIVE-Ecosystem/AutoDRIVE-MathWorks/blob/main/media/VIPR-GS%20%2B%20MathWorks%20Autonomous%20Systems%20Case%20Study%201.pdf), [MathWorks Story](https://www.mathworks.com/company/user_stories/scalable-digital-engineering-for-autonomous-vehicle-validation.html) |
-| ![](autodrive_turnkey_demos/autodrive_husky_g2g_mbse/autodrive_husky_g2g_mbse.gif) | [**autodrive_husky_g2g_mbse**](autodrive_turnkey_demos/autodrive_husky_g2g_mbse)<br>- **Vehicle:** Husky A200<br>- **Sensors:** GNSS + IMU<br>- **Environment:** Procedurally generated uneven terrain<br>- **Task:** Autonomous Go-to-Goal (G2G) Navigation<br>- **Approach:** Model-Based Systems Engineering (MBSE) using System Composer<br>- **Artifacts:** [Research Paper](https://doi.org/10.1115/1.4069966), [YouTube Video](https://youtu.be/isLNbC_9I8Q?si=sQ9ouU3EsF4tS-A1), [MathWorks Handout](https://github.com/AutoDRIVE-Ecosystem/AutoDRIVE-MathWorks/blob/main/media/VIPR-GS%20%2B%20MathWorks%20Autonomous%20Systems%20Case%20Study%202.pdf) |
+| ![](autodrive_turnkey_demos/autodrive_rzr_aeb_mbd/autodrive_rzr_aeb_mbd.gif) | [**autodrive_rzr_aeb_mbd**](autodrive_turnkey_demos/autodrive_rzr_aeb_mbd)<br>- **Vehicle:** RZR Pro R 4 Ultimate<br>- **Sensors:** Camera + IMU + Encoders<br>- **Environment:** Handcrafted Dirt Road in Thick Vegetation<br>- **Task:** Autonomous Emergency Braking (AEB)<br>- **Approach:** Model-Based Design (MBD) using Simulink<br>- **Simulator:** [autodrive_rzr_simulator.zip](https://github.com/AutoDRIVE-Ecosystem/AutoDRIVE-MathWorks/releases/download/v1.0.0/autodrive_rzr_simulator.zip) |
+| ![](autodrive_turnkey_demos/autodrive_rzr_aeb_mbse/autodrive_rzr_aeb_mbse.gif) | [**autodrive_rzr_aeb_mbse**](autodrive_turnkey_demos/autodrive_rzr_aeb_mbse)<br>- **Vehicle:** RZR Pro R 4 Ultimate<br>- **Sensors:** Camera + IMU + Encoders<br>- **Environment:** Handcrafted Dirt Road in Thick Vegetation<br>- **Task:** Autonomous Emergency Braking (AEB)<br>- **Approach:** Model-Based Systems Engineering (MBSE) using System Composer<br>- **Simulator:** [autodrive_rzr_simulator.zip](https://github.com/AutoDRIVE-Ecosystem/AutoDRIVE-MathWorks/releases/download/v1.1.0/autodrive_rzr_simulator.zip)<br>- **Artifacts:** [Research Paper](https://doi.org/10.1016/j.ifacol.2025.12.336), [YouTube Video](https://youtu.be/FsSTWJiiEWg?si=6_EhYzU20gqP7WWY), [MathWorks Handout](https://github.com/AutoDRIVE-Ecosystem/AutoDRIVE-MathWorks/blob/main/media/VIPR-GS%20%2B%20MathWorks%20Autonomous%20Systems%20Case%20Study%201.pdf), [MathWorks Story](https://www.mathworks.com/company/user_stories/scalable-digital-engineering-for-autonomous-vehicle-validation.html) |
+| ![](autodrive_turnkey_demos/autodrive_husky_g2g_mbse/autodrive_husky_g2g_mbse.gif) | [**autodrive_husky_g2g_mbse**](autodrive_turnkey_demos/autodrive_husky_g2g_mbse)<br>- **Vehicle:** Husky A200<br>- **Sensors:** GNSS + IMU<br>- **Environment:** Procedurally generated uneven terrain<br>- **Task:** Autonomous Go-to-Goal (G2G) Navigation<br>- **Approach:** Model-Based Systems Engineering (MBSE) using System Composer<br>- **Simulator:** [autodrive_husky_simulator.zip](https://github.com/AutoDRIVE-Ecosystem/AutoDRIVE-MathWorks/releases/download/v2.0.0/autodrive_husky_simulator.zip)<br>- **Artifacts:** [Research Paper](https://doi.org/10.1115/1.4069966), [YouTube Video](https://youtu.be/isLNbC_9I8Q?si=sQ9ouU3EsF4tS-A1), [MathWorks Handout](https://github.com/AutoDRIVE-Ecosystem/AutoDRIVE-MathWorks/blob/main/media/VIPR-GS%20%2B%20MathWorks%20Autonomous%20Systems%20Case%20Study%202.pdf) |
 |                    |                     |
 
 **Taxonomy & Nomenclature:**
