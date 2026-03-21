@@ -104,3 +104,39 @@ This section describes various turnkey demos for modular as well as end-to-end a
 - `*_alg`: Algorithm Development using [MATLAB](https://www.mathworks.com/products/matlab.html)
 - `*_mbd`: Model-Based Design (MBD) using [Simulink](https://www.mathworks.com/products/simulink.html)
 - `*_mbse`: Model-Based Systems Engineering (MBSE) using [System Composer](https://www.mathworks.com/products/system-composer.html)
+
+# Honors and Awards
+
+<img align="left" style="padding-left: 10px; padding-right: 10px; padding-bottom: 10px" width="100px" src="media/SSC-Logo.png">
+
+**Simulink Student Challenge:** 1st Place for project [Digital Engineering Framework for Off-Road Autonomous Vehicles](https://www.mathworks.com/academia/student-challenge/simulink-student-challenge-2025.html) at Simulink Student Challenge 2025
+
+*Tanmay Samak and Chinmay Samak*
+<img/>
+<br />
+<br />
+
+<img align="left" style="padding-left: 10px; padding-right: 10px; padding-bottom: 10px" width="100px" src="media/MW-Logo.png">
+
+**MathWorks Success Story:** [Building a Scalable Digital Engineering Framework for Autonomous Ground Vehicle Validation](https://www.mathworks.com/company/user_stories/scalable-digital-engineering-for-autonomous-vehicle-validation.html)
+
+*Tanmay Samak, Chinmay Samak, Julia Brault, Cori Harber, Kirsten McCane, Jonathon Smereka, Mark Brudnak, David Gorsich, and Venkat Krovi*
+<img/>
+<br />
+<br />
+
+<img align="left" style="padding-left: 10px; padding-right: 10px; padding-bottom: 10px" width="100px" src="media/MW-Logo.png">
+
+**MathWorks Success Slide:** [Digital Engineering Accelerates Off-Road Ground Vehicle Development](https://github.com/AutoDRIVE-Ecosystem/AutoDRIVE-MathWorks/blob/main/media/VIPR-GS%20%2B%20MathWorks%20Autonomous%20Systems%20Case%20Study%201.pdf)
+
+*Tanmay Samak, Chinmay Samak, Julia Brault, Cori Harber, Kirsten McCane, Jonathon Smereka, Mark Brudnak, David Gorsich, and Venkat Krovi*
+<img/>
+<br />
+<br />
+
+<img align="left" style="padding-left: 10px; padding-right: 10px; padding-bottom: 10px" width="100px" src="media/MW-Logo.png">
+
+**MathWorks Success Slide:** [Overcoming Complexity to Model and Optimize Complex Mission Scenarios](https://github.com/AutoDRIVE-Ecosystem/AutoDRIVE-MathWorks/blob/main/media/VIPR-GS%20%2B%20MathWorks%20Autonomous%20Systems%20Case%20Study%202.pdf)
+
+*John Coleman, Jagadeesh Madinni, Tanmay Samak, Chinmay Samak, Kirsten McCane, Julia Brault, Cori Harber, Jonathon Smereka, Mark Brudnak, David Gorsich, and Venkat Krovi*
+<img/>
