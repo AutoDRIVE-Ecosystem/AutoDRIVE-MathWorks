@@ -39,7 +39,7 @@ This section describes the MATLAB API for AutoDRIVE, which can be used to develo
     autodrive = example_{vehicle}(4567)
     ```
     Replace `{vehicle}` by one of the available objects (use the URL to download the corresponding vehicle-specific simulator):
-    - `roboracer` for [RoboRacer (formerly F1Tenth)](https://github.com/AutoDRIVE-Ecosystem/AutoDRIVE-MathWorks/releases/download/v0.2.0/autodrive_roboracer_simulator.zip)
+    - `roboracer` for [RoboRacer (formerly F1Tenth)](https://github.com/AutoDRIVE-Ecosystem/AutoDRIVE-MathWorks/releases/download/v0.1.0/autodrive_roboracer_simulator.zip)
     - `hunter` for [AgileX Hunter SE](https://github.com/AutoDRIVE-Ecosystem/AutoDRIVE-MathWorks/releases/download/v0.3.0/autodrive_hunter_simulator.zip)
     - `husky` for [Clearpath Husky A200](https://github.com/AutoDRIVE-Ecosystem/AutoDRIVE-MathWorks/releases/download/v0.5.0/autodrive_husky_simulator.zip)
     - `rzr` for [Polaris RZR Pro R 4 Ultimate](https://github.com/AutoDRIVE-Ecosystem/AutoDRIVE-MathWorks/releases/download/v0.7.0/autodrive_rzr_simulator.zip)
