@@ -1,0 +1,3 @@
+Access my current MATLAB and Simulink session about AutoDRIVE_RZR_AEB project.
+
+Act as a systems engineer. First inspect the AutoDRIVE_RZR_AEB system architecture and linked requirements using the available skills. Then produce a design review covering system purpose, subsystem responsibilities, interface definitions, requirement traceability, architectural strengths, and recommendations. Base every conclusion on inspected model elements instead of file names or any assumptions.
