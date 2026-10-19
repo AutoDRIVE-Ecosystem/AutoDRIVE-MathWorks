@@ -1,0 +1,3 @@
+Controller,GroupCount,mean_Passed,mean_DetectionPass,mean_ComfortPass,mean_TrackingPass,mean_SafetyPass,Overall,Detection,Comfort,Tracking,Safety
+Bang-Bang Controller,64,0.015625,0.796875,0.015625,0.0625,0.609375,1.5625,79.6875,1.5625,6.25,60.9375
+PID Controller,64,0.15625,0.84375,0.796875,0.34375,0.34375,15.625,84.375,79.6875,34.375,34.375

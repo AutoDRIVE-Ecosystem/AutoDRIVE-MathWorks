@@ -1,0 +1,5 @@
+Criterion,Passed,Failed,PassRatePct
+Detection,105,23,82.03125
+Comfort,52,76,40.625
+Tracking,26,102,20.3125
+Safety,61,67,47.65625

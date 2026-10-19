@@ -1,0 +1,9 @@
+Variant,GroupCount,mean_Passed,mean_DetectionPass,mean_ComfortPass,mean_TrackingPass,mean_SafetyPass,PassRatePct,DetectionPassRatePct,ComfortPassRatePct,TrackingPassRatePct,SafetyPassRatePct
+VConfig1,16,0,0.5625,0,0.125,0.6875,0,56.25,0,12.5,68.75
+VConfig2,16,0,0.6875,0,0.0625,0.4375,0,68.75,0,6.25,43.75
+VConfig5,16,0.0625,1,0.0625,0.0625,0.6875,6.25,100,6.25,6.25,68.75
+VConfig6,16,0,0.9375,0,0,0.625,0,93.75,0,0,62.5
+VConfig13,16,0.1875,0.6875,0.8125,0.3125,0.4375,18.75,68.75,81.25,31.25,43.75
+VConfig14,16,0.125,0.6875,0.75,0.375,0.375,12.5,68.75,75,37.5,37.5
+VConfig17,16,0.25,1,0.8125,0.3125,0.375,25,100,81.25,31.25,37.5
+VConfig18,16,0.0625,1,0.8125,0.375,0.1875,6.25,100,81.25,37.5,18.75
