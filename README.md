@@ -111,6 +111,15 @@ This section describes various turnkey demos for modular as well as end-to-end a
 
 <img align="left" style="padding-left: 10px; padding-right: 10px; padding-bottom: 10px" width="100px" src="media/MW-Logo.png">
 
+**MathWorks Blog Series:** Interview for blog series *"Digital Engineering De-coded: Illuminating the Future of Engineering"* | [Part 1](https://blogs.mathworks.com/digitaleng/2026/10/06/part-1-why-digital-engineering-matters-real-examples-real-roi) | [Part 2](https://blogs.mathworks.com/digitaleng/2026/10/15/part-2-how-digital-engineering-scales-where-ad-hoc-workflows-fail) | [Part 3](https://blogs.mathworks.com/digitaleng/2026/10/21/part-3-when-digital-engineering-delivers-from-models-to-evidence) | [Part 4](https://blogs.mathworks.com/digitaleng/2026/10/29/post-4-getting-started-with-digital-engineering-beyond-just-tools) |
+
+*Tanmay Samak and Chinmay Samak (with Kirsten McCane and Jason Ghidella)*
+<img/>
+<br />
+<br />
+
+<img align="left" style="padding-left: 10px; padding-right: 10px; padding-bottom: 10px" width="100px" src="media/MW-Logo.png">
+
 **MathWorks ART Forum:** Invited talk of research *"Autonomous Vehicles in the Age of AI: From Digital Twins to Physical AI"* at MathWorks Advanced Research & Technology (ART) Forum
 
 *Tanmay Samak, Chinmay Samak and Venkat Krovi (with Akshay Rajhans)*
