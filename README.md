@@ -111,7 +111,7 @@ This section describes various turnkey demos for modular as well as end-to-end a
 
 <img align="left" style="padding-left: 10px; padding-right: 10px; padding-bottom: 10px" width="100px" src="media/SSC-Logo.png">
 
-**Simulink Student Challenge:** 1st Place for project [Digital Engineering Framework for Off-Road Autonomous Vehicles](https://www.mathworks.com/academia/student-challenge/simulink-student-challenge-2025.html) at Simulink Student Challenge 2025
+**Simulink Student Challenge:** 1st Place for project *"Digital Engineering Framework for Off-Road Autonomous Vehicles"* at [Simulink Student Challenge 2025](https://www.mathworks.com/academia/student-challenge/simulink-student-challenge-2025.html)
 
 *Tanmay Samak and Chinmay Samak*
 <img/>
