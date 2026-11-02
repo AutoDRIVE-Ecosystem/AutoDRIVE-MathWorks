@@ -109,6 +109,15 @@ This section describes various turnkey demos for modular as well as end-to-end a
 
 # Honors and Awards
 
+<img align="left" style="padding-left: 10px; padding-right: 10px; padding-bottom: 10px" width="100px" src="media/Expo-Logo.png">
+
+**MATLAB EXPO Online:** Invited talk of project *"Digital Engineering Framework for Off-Road Autonomous Vehicles"* at [MATLAB EXPO Online 2026](https://eventsonline.mathworks.com/series/matlab-expo-online-2026-agenda/landing_page?q=Digital+Engineering+Framework+for+Off-Road+Autonomous+Vehicles)
+
+*Tanmay Samak and Chinmay Samak*
+<img/>
+<br />
+<br />
+
 <img align="left" style="padding-left: 10px; padding-right: 10px; padding-bottom: 10px" width="100px" src="media/MW-Logo.png">
 
 **MathWorks Blog Series:** Interview for blog series *"Digital Engineering De-coded: Illuminating the Future of Engineering"* | [Part 1](https://blogs.mathworks.com/digitaleng/2026/10/06/part-1-why-digital-engineering-matters-real-examples-real-roi) | [Part 2](https://blogs.mathworks.com/digitaleng/2026/10/15/part-2-how-digital-engineering-scales-where-ad-hoc-workflows-fail) | [Part 3](https://blogs.mathworks.com/digitaleng/2026/10/21/part-3-when-digital-engineering-delivers-from-models-to-evidence) | [Part 4](https://blogs.mathworks.com/digitaleng/2026/10/29/post-4-getting-started-with-digital-engineering-beyond-just-tools) |
