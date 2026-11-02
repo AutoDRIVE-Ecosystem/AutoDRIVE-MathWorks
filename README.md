@@ -109,6 +109,15 @@ This section describes various turnkey demos for modular as well as end-to-end a
 
 # Honors and Awards
 
+<img align="left" style="padding-left: 10px; padding-right: 10px; padding-bottom: 10px" width="100px" src="media/MW-Logo.png">
+
+**MathWorks ART Forum:** Invited talk of research *"Autonomous Vehicles in the Age of AI: From Digital Twins to Physical AI"* at MathWorks Advanced Research & Technology (ART) Forum
+
+*Tanmay Samak, Chinmay Samak and Venkat Krovi (with Akshay Rajhans)*
+<img/>
+<br />
+<br />
+
 <img align="left" style="padding-left: 10px; padding-right: 10px; padding-bottom: 10px" width="100px" src="media/Summit-Logo.png">
 
 **MathWorks Research Summit:** Technology showcase of project *"Digital Engineering Framework for Off-Road Autonomous Vehicles"* at [MathWorks Research Summit 2026](https://www.mathworks.com/company/events/research-summit.html)
