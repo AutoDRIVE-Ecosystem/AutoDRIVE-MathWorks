@@ -107,7 +107,7 @@ This section describes various turnkey demos for modular as well as end-to-end a
 - `*_alg`: Algorithm Development using [MATLAB](https://www.mathworks.com/products/matlab.html)
 - `*_mbd`: Model-Based Design (MBD) using [Simulink](https://www.mathworks.com/products/simulink.html)
 - `*_mbse`: Model-Based Systems Engineering (MBSE) using [System Composer](https://www.mathworks.com/products/system-composer.html)
-- `*_agentic_ai`: Agentic AI using [MATLAB MCP Server](https://www.mathworks.com/products/matlab-mcp-server.html), [MATLAB Agentic Toolkit](https://www.mathworks.com/products/matlab-agentic-toolkit.html), and [Simulink Agentic Toolkit](https://www.mathworks.com/products/simulink-agentic-toolkit.html)
+- `*_agentic_ai`: Agentic AI using [MATLAB MCP Server](https://www.mathworks.com/products/matlab-mcp-server.html), [MATLAB Agentic Toolkit](https://www.mathworks.com/products/matlab-agentic-toolkit.html), [Simulink Agentic Toolkit](https://www.mathworks.com/products/simulink-agentic-toolkit.html)
 
 # Honors and Awards
 
