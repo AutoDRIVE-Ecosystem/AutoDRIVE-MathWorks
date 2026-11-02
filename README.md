@@ -116,7 +116,6 @@ This section describes various turnkey demos for modular as well as end-to-end a
 *Tanmay Samak and Chinmay Samak*
 <img/>
 <br />
-<br />
 
 <img align="left" style="padding-left: 10px; padding-right: 10px; padding-bottom: 10px" width="100px" src="media/MW-Logo.png">
 
@@ -124,7 +123,6 @@ This section describes various turnkey demos for modular as well as end-to-end a
 
 *Tanmay Samak and Chinmay Samak (with Kirsten McCane and Jason Ghidella)*
 <img/>
-<br />
 <br />
 
 <img align="left" style="padding-left: 10px; padding-right: 10px; padding-bottom: 10px" width="100px" src="media/MW-Logo.png">
@@ -134,7 +132,6 @@ This section describes various turnkey demos for modular as well as end-to-end a
 *Tanmay Samak, Chinmay Samak and Venkat Krovi (with Akshay Rajhans)*
 <img/>
 <br />
-<br />
 
 <img align="left" style="padding-left: 10px; padding-right: 10px; padding-bottom: 10px" width="100px" src="media/Summit-Logo.png">
 
@@ -142,7 +139,6 @@ This section describes various turnkey demos for modular as well as end-to-end a
 
 *Tanmay Samak, Chinmay Samak and Venkat Krovi (with Akshay Rajhans)*
 <img/>
-<br />
 <br />
 
 <img align="left" style="padding-left: 10px; padding-right: 10px; padding-bottom: 10px" width="100px" src="media/SSC-Logo.png">
@@ -152,7 +148,6 @@ This section describes various turnkey demos for modular as well as end-to-end a
 *Tanmay Samak and Chinmay Samak*
 <img/>
 <br />
-<br />
 
 <img align="left" style="padding-left: 10px; padding-right: 10px; padding-bottom: 10px" width="100px" src="media/MW-Logo.png">
 
@@ -161,7 +156,6 @@ This section describes various turnkey demos for modular as well as end-to-end a
 *Tanmay Samak, Chinmay Samak, Julia Brault, Cori Harber, Kirsten McCane, Jonathon Smereka, Mark Brudnak, David Gorsich, and Venkat Krovi*
 <img/>
 <br />
-<br />
 
 <img align="left" style="padding-left: 10px; padding-right: 10px; padding-bottom: 10px" width="100px" src="media/MW-Logo.png">
 
@@ -169,7 +163,6 @@ This section describes various turnkey demos for modular as well as end-to-end a
 
 *Tanmay Samak, Chinmay Samak, Julia Brault, Cori Harber, Kirsten McCane, Jonathon Smereka, Mark Brudnak, David Gorsich, and Venkat Krovi*
 <img/>
-<br />
 <br />
 
 <img align="left" style="padding-left: 10px; padding-right: 10px; padding-bottom: 10px" width="100px" src="media/MW-Logo.png">
