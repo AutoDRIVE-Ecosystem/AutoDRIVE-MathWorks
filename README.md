@@ -113,7 +113,7 @@ This section describes various turnkey demos for modular as well as end-to-end a
 
 <img align="left" style="padding-left: 10px; padding-right: 10px; padding-bottom: 10px" width="100px" src="media/Expo-Logo.png">
 
-**MATLAB EXPO Online:** Invited talk of project *"Digital Engineering Framework for Off-Road Autonomous Vehicles"* at [MATLAB EXPO Online 2026](https://eventsonline.mathworks.com/series/matlab-expo-online-2026-agenda/landing_page?q=Digital+Engineering+Framework+for+Off-Road+Autonomous+Vehicles)
+**MATLAB EXPO Online:** Invited talk of project *"Digital Engineering Framework for Off-Road Autonomous Vehicles"* at [MATLAB EXPO Online 2026](https://www.mathworks.com/videos/digital-engineering-framework-for-off-road-autonomous-vehicles-1793836359566.html)
 
 *Tanmay Samak and Chinmay Samak*
 <img/>
